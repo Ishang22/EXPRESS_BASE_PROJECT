@@ -1,0 +1,45 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "Express base",
+    "description": "Express base documentation for admin",
+    "version": "1.0"
+  },
+  "produces": [
+    "application/json"
+  ],
+  "host":"192.168.102.83:3000",
+  "basePath": "",
+  "paths": {
+
+    "/admin/login": {
+      "get": {
+        "x-swagger-router-controller": "middleware-name1",
+        "operationId": "login",
+        "tags": [
+          "Admin"
+        ],
+        "description": "",
+        "parameters": [
+          {
+            "name"       : "email",
+            "in"         : "query",
+            "description": "email is required",
+            "required"   : true,
+            "type": "string",
+            "value": ""
+          },
+          {
+            "name": "password",
+            "in": "query",
+            "description": "password is required",
+            "required": true,
+            "type": "string",
+            "value": ""
+          }
+        ],
+        "responses": {}
+      }
+    }
+  }
+}
