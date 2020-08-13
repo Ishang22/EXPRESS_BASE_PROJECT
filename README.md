@@ -4,7 +4,7 @@
 
  npm start to start the project  (SIMPLY STARTS THE DEV SERVER)
 
- NODE_ENV=live npm start  to start the live server
+ NODE_ENV=live npm start  to start the live server.
 
  NODE_ENV=test npm start  to start the live server
 
