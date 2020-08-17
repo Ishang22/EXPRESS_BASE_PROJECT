@@ -12,7 +12,6 @@
 
  AS PROPER MVC STRUCTURE
 
-
  HAS SWAGGER INTEGRATED TO ACCESS THE SWAGGER   http://localhost:3000/admin-docs/
 
 
